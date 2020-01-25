@@ -1,0 +1,44 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme":"Dracula",
+
+  // Configura tamanho e família da fonte
+  "editor.fontSize":14,
+  "editor.lineHeight":24,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [
+    80,
+    120
+  ],
+  // Set the default
+"editor.formatOnSave": true,
+
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight":"gutter",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize":14,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+    },
+    "emmet.syntaxProfiles": {
+      "javascript": "JSX",
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.parameterHints.enabled":false,
+    
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme":"material-icon-theme",
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": false,
+}
